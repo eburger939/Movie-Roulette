@@ -100,7 +100,7 @@ var genre;
         window.location.reload(true)
 
     
-}   
+})   
 
 
 
@@ -213,4 +213,5 @@ function getInfo(imdbNumber, videoNumber) { ///// 2nd IMDB API CALL //////
           console.log('IMDB Rating: ' + data.imDbRating);
 
         })
-    } 
+    }}
+}
